@@ -1,0 +1,23 @@
+{
+  "name": "iot-motor-api-vulnerable",
+  "version": "1.0.0",
+  "description": "Intentionally vulnerable IoT motor-configuration API. Training target for the Team Othy IBM Bob 2.0 CVE-remediation pipeline. NOT FOR PRODUCTION.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node tests/smoke.test.js"
+  },
+  "keywords": [
+    "vulnerable-by-design",
+    "security-training",
+    "iot",
+    "prototype-pollution",
+    "ibm-bob"
+  ],
+  "author": "Team Othy (Role 4 — Kent Vincent S. Godinez)",
+  "license": "MIT",
+  "dependencies": {
+    "express": "4.17.1",
+    "lodash": "4.17.4"
+  }
+}
